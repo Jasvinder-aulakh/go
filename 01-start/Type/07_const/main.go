@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+const m = 34
+const n = 34
+
 const (
 	a = 4
 	b = 4.5
@@ -29,5 +32,9 @@ func main() {
 	fmt.Printf("%T\n", x)
 	fmt.Printf("%T\n", y)
 	fmt.Printf("%T\n", z)
+
+	fmt.Println(m == n)
+	fmt.Println(n == m)
+	fmt.Printf("%T\n", m)
 
 }
