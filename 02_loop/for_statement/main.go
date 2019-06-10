@@ -6,7 +6,7 @@ import (
 
 func main() {
 	for i := 0; i < 10; i++ {
-		fmt.Println(i)
+		fmt.Printf("%T\n\t%d\t%v\n\t%#X\n", i, i, i, i)
 
 	}
 	for j := 0; j <= 20; j++ {
