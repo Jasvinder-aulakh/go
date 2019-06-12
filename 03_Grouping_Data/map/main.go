@@ -14,4 +14,7 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(x["Lovy"])
 
+	//delete(m map[Key]Type, key Key)
+	delete(x, "Jasprit")
+	fmt.Println(x)
 }
